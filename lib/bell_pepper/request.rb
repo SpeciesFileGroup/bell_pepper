@@ -13,15 +13,18 @@ module BellPepper
     def initialize(**args)
       @endpoint = args[:endpoint]
       @verbose = args[:verbose]
-      @give_me = args[:give_me]
+      
       @id = args[:id]
-      @locality = args[:locality]
+      
       @city = args[:city]
+      @continent = args[:continent]
       @county = args[:county]
-      @state_province = args[:state_province]
       @country = args[:country]
       @country_code = args[:country_code]
-      @continent = args[:continent]
+      @give_me = args[:give_me]
+      @locality = args[:locality]
+      @state_province = args[:state_province]
+      
       @options = args[:options] # TODO: not added at bell_pepper.rb
     end
 
@@ -29,13 +32,14 @@ module BellPepper
 
       for_location = {
         id: @id, 
-        locality: @locality, 
         city: @city, 
+        continent: @continent,
         county: @county,
-        stateprovince: @state_province, 
         country: @country, 
         countrycode: @country_code, 
-        continent: @continent}
+        locality: @locality, 
+        stateprovince: @state_province
+        }
       for_location = for_location.delete_if { |_k, v| v.nil? }
       body = {"give_me": @give_me, "for_location": for_location}
 
