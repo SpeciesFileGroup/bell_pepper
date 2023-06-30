@@ -5,7 +5,7 @@ require_relative "lib/bell_pepper/version"
 Gem::Specification.new do |s|
   s.name          = "bell_pepper"
   s.version       = BellPepper::VERSION
-  s.authors       = ["Geoff Ower"]
+  s.authors       = ["Geoff Ower, Matt Yoder"]
   s.email         = ["gdower@illinois.edu"]
 
   s.summary       = "Biodiversity Enhanced Location Services (BELS) Georeference Client"
