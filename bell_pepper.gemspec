@@ -5,11 +5,11 @@ require_relative "lib/bell_pepper/version"
 Gem::Specification.new do |s|
   s.name          = "bell_pepper"
   s.version       = BellPepper::VERSION
-  s.authors       = ["Matt Yoder, Geoff Ower"]
-  s.email         = ["diapriid@gmail.com"]
+  s.authors       = ["Geoff Ower"]
+  s.email         = ["gdower@illinois.edu"]
 
-  s.summary       = "Catalog of Life Client"
-  s.description   = "bell_pepper (a play on Kholrabi) is a low-level wrapper around the Catalog of Life API."
+  s.summary       = "Biodiversity Enhanced Location Services (BELS) Georeference Client"
+  s.description   = "bell_pepper is a low-level wrapper around the BELS API."
   s.homepage      = "https://github.com/SpeciesFileGroup/bell_pepper"
   s.license       = "NCSA"
   s.required_ruby_version = ">= 2.4.0"
