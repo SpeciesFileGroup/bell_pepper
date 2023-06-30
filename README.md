@@ -20,9 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-In development, this is it for now:
 ```ruby
- res = BellPepper.nameusage(q: 'Homo sapiens') #  => MultiJson object
+ res = BellPepper.bestgeoref(id: "1", locality: "Meadowbrook Park", city: "Urbana", state_province: "Illinois", country_code: "US") #  => MultiJson object
 ```
 
 ## Development
