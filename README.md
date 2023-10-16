@@ -1,5 +1,7 @@
 # BellPepper
 
+![bell_pepper-tiny2](https://github.com/SpeciesFileGroup/bell_pepper/assets/8573609/361aaf60-df59-4d2b-b068-b441ec32ae21)
+
 This is a wrapper on the [Biodiversity Enhanced Location Services (BELS) Georeference API](https://github.com/VertNet/bels). Code follow the spirit/approach of the Gem [serrano](https://github.com/sckott/serrano), and indeed much of the wrapping utility is copied 1:1 from that repo, thanks [@sckott](https://github.com/sckott).
 
 ## Installation
