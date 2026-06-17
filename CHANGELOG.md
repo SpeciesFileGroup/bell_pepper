@@ -1,4 +1,5 @@
 ## [Unreleased]
+ - Fixed copy-paste residue: 503 error message said "Crossref is rate limiting your requests." (Crossref is the upstream serrano template's API) — changed to "BELS is rate limiting your requests."
 
 ## [0.1.3] - 2026-06-17
  - Allow Ruby 4.0.0:
